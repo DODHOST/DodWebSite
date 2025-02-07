@@ -56,10 +56,10 @@
             100% { color: GRAY; }
         }
         @keyframes button-blink {
-            0% { background-color: GRAY; }
-            33% { background-color: GRAY; }
-            66% { background-color: GRAY; }
-            100% { background-color: GRAY; }
+            0% { babackground-color: 0×80000000; }
+            33% { background-color: 0×80000000; }
+            66% { background-color: 0×80000000; }
+            100% { background-color:0×80000000; }
         }
        .contact-button-container {
             position: relative;
@@ -68,12 +68,20 @@
         }
         .contact-button {
             color:blue;
-            padding: 40px 100px;
+            padding: 50px 100px;
             text-decoration: none;
             display: inline-block;
             font-weight: bold;
-            font-size: 60px; /* Mengatur ukuran teks tombol */
             background-color: f5f5f5;
+            border: none;
+            position: relative;
+            width: 100%;
+            max-width: 400px;
+            padding: 40px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+            font-size: 60px; /* Mengatur ukuran teks tombol */
             border-radius: 5px;
             cursor: pointer;
             font-size: 180%; /* Sesuaikan lebar tombol dengan konten */
@@ -94,11 +102,6 @@
         .arrow-right {
             right: -30px;
         }
-                .footer {
-            margin-top: 30px;
-            font-size: 14px;
-            color: #888;
-            animation: borderGlow 1.5s infinite alternate, fadeIn 1.5s ease-in-out;
         }
       </style>
     </head>
@@ -124,7 +127,4 @@
         <a class="contact-button" href="https://aanonimm.github.io/Ddddod/" target="_blank">
            BELI JASTEB GACOR
            </a>
-        <div class="footer">
-            &copy;DOD HOSTING
-        </div>
-    </div>
+             </div>
